@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.16">
+	<ConfigVersions>
+		<Metadata name="Catalog.Контрагенты" id="ca21b2c6-e777-41bf-8f66-6ebb3c7ee18d" configVersion="6daae3955f3b27edf1f35dd798cab4713ebab08b"/>
+		<Metadata name="Catalog.Номенклатура" id="96a53c4e-54e0-4b2c-bc29-1fdc99ba1e6d" configVersion="4980113766118df8970e37de7495f1ae6f2174ec"/>
+		<Metadata name="Catalog.Организации" id="ffab76ce-28bb-4895-ab37-0bc0cdaf71a5" configVersion="bcbc0baaedc05f894697e635f0178fc0cf668d4d"/>
+		<Metadata name="Catalog.ПодразделенияОрганизаций" id="ec11b46e-d885-40e2-909b-705e7a7f0bab" configVersion="c6c185ec925cfdc0eef77137230ef4885f7d7025"/>
+		<Metadata name="Catalog.СтатьиЗатрат" id="e6088037-b575-493a-9dd5-d60688f7526f" configVersion="9dbabe0acac00c56417057dabc7a242308f3a631"/>
+		<Metadata name="ChartOfAccounts.Хозрасчетный" id="58ade9f0-3845-42ec-ad06-3d4842811205" configVersion="d620a7841333f3cc0700922414f7396b0f5ee15c"/>
+		<Metadata name="ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетные" id="d9cf65ed-1bd9-4c0d-833f-3b22e34bbd99" configVersion="2048dd00dfa50bc2a4f52789357de66e848c8e49"/>
+		<Metadata name="ChartOfCharacteristicTypes.бит_НастройкиЗагрузки" id="aa68f074-ea10-41ab-a677-bc3b70056c53" configVersion="f422c722f44b492c76397b13e6441f8fdfb6e6c0"/>
+		<Metadata name="ChartOfCharacteristicTypes.бит_НастройкиЗагрузки.Form.ФормаСписка" id="1d814376-b8ec-465e-81d9-9395d2dcfd38" configVersion="bb44f96b27b4e42c56f1d79019791790596b2840"/>
+		<Metadata name="ChartOfCharacteristicTypes.бит_НастройкиЗагрузки.Form.ФормаСписка.Form" id="1d814376-b8ec-465e-81d9-9395d2dcfd38.0" configVersion="781c811322e5f7b9f282025df93cc5cf290a0a91"/>
+		<Metadata name="ChartOfCharacteristicTypes.бит_НастройкиЗагрузки.Form.ФормаЭлемента" id="95655540-003f-4e5f-9ac2-04057aacdc2a" configVersion="54faea10a32b436966e7cb765d7c8042cd152fb4"/>
+		<Metadata name="ChartOfCharacteristicTypes.бит_НастройкиЗагрузки.Form.ФормаЭлемента.Form" id="95655540-003f-4e5f-9ac2-04057aacdc2a.0" configVersion="0a21e163f5820a75eeb6b64ac406c82e4bc2ad70"/>
+		<Metadata name="ChartOfCharacteristicTypes.бит_НастройкиЗагрузки.ManagerModule" id="aa68f074-ea10-41ab-a677-bc3b70056c53.16" configVersion="c8340cbf08a38c6a83eb5fe1e660c1180d07e373"/>
+		<Metadata name="ChartOfCharacteristicTypes.бит_НастройкиЗагрузки.Predefined" id="aa68f074-ea10-41ab-a677-bc3b70056c53.7" configVersion="5ef6c571730314942f777af29d012912f5de5786"/>
+		<Metadata name="CommonModule.а_АппСелл" id="30a5cefc-ee9e-492a-a9d9-ffcd019de9c3" configVersion="8ccd3cde9a3a0bd6d3808e4e02b574aff806b606"/>
+		<Metadata name="CommonModule.а_АппСелл.Module" id="30a5cefc-ee9e-492a-a9d9-ffcd019de9c3.0" configVersion="2a342aa0c2cf3f17f27b1781b5890720850e5901"/>
+		<Metadata name="CommonPicture.а_ОбщаяКартинка1" id="c796d5b2-8ec9-490b-8b14-11091422f2bf" configVersion="70d08d656749f54f28f2037f10adabc753ae35a2"/>
+		<Metadata name="CommonPicture.а_ОбщаяКартинка1.Picture" id="c796d5b2-8ec9-490b-8b14-11091422f2bf.0" configVersion="212d8c3b90307b7bc400838f718d4e1db80cc1c5"/>
+		<Metadata name="Configuration.Бит_appsell" id="bf119561-4f4d-4570-973e-f7082f783add" configVersion="be83d071a3507f0b424c133d32b2850c1a0e6268"/>
+		<Metadata name="DataProcessor.а_Загрузка" id="15791b1a-3c22-4271-affc-0d26cd6b1f83" configVersion="2b8f1c558b6c811851c6ba1f57cc5467e3283af0"/>
+		<Metadata name="DataProcessor.а_Загрузка.Form.Форма" id="4117f660-3255-4939-bf84-603947bbe8c2" configVersion="bc7d80fdc6ccba57230a671f458edf17db81dc77"/>
+		<Metadata name="DataProcessor.а_Загрузка.Form.Форма.Form" id="4117f660-3255-4939-bf84-603947bbe8c2.0" configVersion="1fb07d7f6df02a852705a737df73b307fd314deb"/>
+		<Metadata name="Document.ПоступлениеТоваровУслуг" id="e7eb0695-b93c-4c86-a9ff-aaae0757e58b" configVersion="f52c1efc2df5b50b61b08e0866660570b3e2fa3a"/>
+		<Metadata name="InformationRegister.бит_ЗначенияНастроек" id="04a88886-aab7-41b8-842a-28a4897d84c5" configVersion="9732bdd79d1db468f3848c07269c1f1cbfcc1b00">
+			<Metadata name="InformationRegister.бит_ЗначенияНастроек.Dimension.Настройка" id="3b530052-3ea4-4713-8291-d3ea073bc089"/>
+			<Metadata name="InformationRegister.бит_ЗначенияНастроек.Resource.Значение" id="3e73549b-4515-48e1-9e28-7c1329d7b186"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="ca451035-d6b0-4336-b2ea-b09b5051b357" configVersion="5f1e31ea055c3398ba4a509678e3769760de0d4a"/>
+		<Metadata name="Role.а_ОсновнаяРоль" id="3dc81702-b8fc-4d87-9e62-105decf46cce" configVersion="a2acabb83b8b48e68d16564be6d8f2064c1d1194"/>
+		<Metadata name="Subsystem.а_Appsell" id="072a7254-1472-41e0-aa28-da272ac49b7c" configVersion="f52398c6c6cc3c82b55732c9725b4ba9c4bf7eea"/>
+		<Metadata name="Subsystem.а_Appsell.Subsystem.Настройки" id="38117655-e0ea-4334-9355-da9b814ba3ec" configVersion="919ee7cbb005ae49e4bcb77604db99e055af08fb"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

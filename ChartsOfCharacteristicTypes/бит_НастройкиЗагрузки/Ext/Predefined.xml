@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PlanOfCharacteristicKindPredefinedItems" version="2.16">
+	<Item id="6084e7c0-e747-42ac-b915-6b82e3ba5cef">
+		<Name>Контрагенты</Name>
+		<Code>000000007</Code>
+		<Description>Контрагенты</Description>
+		<Type/>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="2a01d5f5-f96b-4890-bc82-7841e0698ff8">
+				<Name>ГруппаКонтрагентов</Name>
+				<Code>000000008</Code>
+				<Description>Группа контрагентов</Description>
+				<Type>
+					<v8:Type xmlns:d6p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d6p1:CatalogRef.Контрагенты</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="4949d0b2-06d2-4d75-b860-53201a1b685d">
+				<Name>НаименованиеДоговора</Name>
+				<Code>000000011</Code>
+				<Description>Наименование для нового договора</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>255</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="d7fc5d71-37a0-4a77-a130-f96c780c36b5">
+		<Name>НастройкиПодключения</Name>
+		<Code>000000001</Code>
+		<Description>Настройки подключения</Description>
+		<Type/>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="5cb137a8-15f3-403c-a9db-e1e87b3759ae">
+				<Name>emailУведомлений</Name>
+				<Code>000000016</Code>
+				<Description>Email уведомлений</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>255</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="a22dc459-46a0-45e9-9aba-1de2dbc60e8e">
+				<Name>АдресСервиса</Name>
+				<Code>000000002</Code>
+				<Description>Адрес сервиса</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>255</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="2f615e5d-6693-4644-b085-988cd9cdb520">
+				<Name>Логин</Name>
+				<Code>000000003</Code>
+				<Description>Логин</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>255</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="75754889-403c-49f2-a9d9-2ef8a7cec9e3">
+				<Name>Пароль</Name>
+				<Code>000000004</Code>
+				<Description>Пароль</Description>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>255</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="af4cdf73-dc0e-4210-b277-89e299cabb4d">
+		<Name>Номенклатура</Name>
+		<Code>000000009</Code>
+		<Description>Номенклатура</Description>
+		<Type/>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="7f8410f6-fca4-4d07-ab63-7c7311d0aad6">
+				<Name>ГруппаНоменклатуры</Name>
+				<Code>000000010</Code>
+				<Description>Группа номенклатуры</Description>
+				<Type>
+					<v8:Type xmlns:d6p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d6p1:CatalogRef.Номенклатура</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="38e91f4a-b9d5-47a3-bdfc-54013b5807d9">
+		<Name>ПоступлениеТоваровИУслуг</Name>
+		<Code>000000005</Code>
+		<Description>Поступление товаров и услуг</Description>
+		<Type/>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="a3f94157-2526-4e61-a5af-e86866e467c5">
+				<Name>Организация</Name>
+				<Code>000000006</Code>
+				<Description>Организация</Description>
+				<Type>
+					<v8:Type xmlns:d6p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d6p1:CatalogRef.Организации</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="83db9101-215d-441f-b2dd-fe3aafd3e719">
+				<Name>ПодразделениеЗатрат</Name>
+				<Code>000000014</Code>
+				<Description>Подразделение затрат</Description>
+				<Type>
+					<v8:Type xmlns:d6p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d6p1:CatalogRef.ПодразделенияОрганизаций</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="0b172382-1217-4d6f-8ce7-67dd46856f50">
+				<Name>СтатьяЗатрат</Name>
+				<Code>000000013</Code>
+				<Description>Статья Затрат</Description>
+				<Type>
+					<v8:Type xmlns:d6p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d6p1:CatalogRef.СтатьиЗатрат</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="7a40d517-1a14-49c9-a82f-a9088a144b9e">
+				<Name>СчетУчетаНДСУслуг</Name>
+				<Code>000000015</Code>
+				<Description>Счет учета НДСУслуг</Description>
+				<Type>
+					<v8:Type xmlns:d6p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d6p1:ChartOfAccountsRef.Хозрасчетный</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>
