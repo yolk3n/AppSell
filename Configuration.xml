@@ -67,8 +67,16 @@
 			<Language>Русский</Language>
 			<Subsystem>а_Appsell</Subsystem>
 			<CommonPicture>а_ОбщаяКартинка1</CommonPicture>
+			<CommonPicture>КлиентHTTP</CommonPicture>
 			<Role>а_ОсновнаяРоль</Role>
 			<CommonModule>а_АппСелл</CommonModule>
+			<CommonModule>КлиентHTTP</CommonModule>
+			<CommonModule>КлиентHTTPВызовСервера</CommonModule>
+			<CommonModule>КлиентHTTPКлиент</CommonModule>
+			<CommonModule>КлиентHTTPКлиентСервер</CommonModule>
+			<CommonModule>КлиентHTTPПовтИсп</CommonModule>
+			<CommonModule>КлиентHTTPСерверПовтИсп</CommonModule>
+			<CommonModule>КлиентHTTPСлужебный</CommonModule>
 			<Catalog>Организации</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Номенклатура</Catalog>
